@@ -16,35 +16,35 @@ const Experience = () => {
         {EXPERIENCES.map((experience, index) => (
           <div
             key={index}
-            className="pl-32 mb-2 flex flex-wrap lg:justify-center"
+            className="mb-2 flex flex-wrap lg:justify-center"
           >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.5 }}
-              className="w-full lg:w-1/3 mb-4 lg:mb-0"
+              className="w-full lg:w-1/3 mb-4"
             >
-              <p className="mb-2 text-sm text-neutral-400 text-center lg:text-left">
+              <p className="mb-2 text-sm text-neutral-400  text-center lg:text-center ">
                 {experience.year}
               </p>
             </motion.div>
 
             <motion.div
-              whileInView={{ opacity: 1, x: -100 }}
+              whileInView={{ opacity: 1, x:0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 0.5 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className=" w-full max-w-xl lg:w-3/4 "
             >
               <h6 className="mb-2 font-semibold text-center lg:text-left">
-                {experience.role} -{" "}
+                {experience.role} - {" "}
                 <span className="text-sm text-purple-200">
                   {experience.company}
                 </span>
               </h6>
-              <p className="mb-4 text-neutral-400 text-center lg:text-left">
+              <p className="mb-4 text-neutral-400 ">
                 {experience.description}
               </p>
-              <div className="flex flex-wrap justify-center lg:justify-start">
+              <div className="flex flex-wrap justify-center lg:justify-center">
                 {experience.technologies.map((tech, index) => (
                   <span
                     key={index}
