@@ -1,10 +1,10 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated full stack developer with a passion for building robust and scalable web applications. With a strong foundation in both front-end and back-end technologies, I have developed hands-on expertise in React, Node.js, Express.js, and MongoDB. My focus is on creating solutions that not only meet the technical requirements but also deliver exceptional user experiences. I thrive on leveraging my skills to design and implement innovative applications that help businesses grow and stay ahead in a competitive landscape.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I’ve gained expertise in a diverse range of technologies, including React, Node.js, Express.js, SQL and MongoDB. My journey began with a curiosity for how things work, and it has since evolved into a fulfilling career where I continually learn and embrace new challenges. I thrive in collaborative environments and enjoy tackling complex problems to deliver high-quality solutions. Beyond coding, I stay active, explore emerging technologies, and actively contribute to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -23,6 +23,7 @@ export const PROJECTS = [
     description:
       "Developed a comprehensive movie ticket booking system with roles for both Admin and Local Users. Features included ticket booking, email confirmations, and password reset for users. The project implemented a secure authentication system and a responsive UI, ensuring optimal user experience across devices. MongoDB was used for data storage, with robust validation and security protocols.",
     technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Redux", "JWT Token"],
+    link : "https://movie-booking-system-frontend.onrender.com/"
   },
   {
     title: "SignIn and SignUp Form",
@@ -37,6 +38,7 @@ export const PROJECTS = [
     description:
       "Developed a memory matching game with essential features such as a dynamic grid layout, card flipping, timer functionality, and move counter. The project included user registration for engagement and win/lose conditions to provide a structured gaming experience​",
     technologies: ["React.js", 'HTML', "CSS", "JavaScript"],
+      link : "https://game-match.netlify.app"
   }
 ];
 

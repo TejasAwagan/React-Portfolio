@@ -21,13 +21,15 @@ function Project() {
               transition={{ duration: 0.5 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                width={150}
-                height={150}
-                className="mb-6 rounded"
-              />
+              <a href={project.link}>
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  width={300}
+                  height={300}
+                  className="mb-6 rounded"
+                />
+              </a>
             </motion.div>
 
             <motion.div
